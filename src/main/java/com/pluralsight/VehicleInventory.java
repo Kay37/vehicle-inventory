@@ -90,7 +90,7 @@ Enter your command:
         double price = sc.nextDouble();
 
         Vehicle newVehicle = new Vehicle(vehicleID, makeModel, color, odometerReading, price);
-
+        // * re utilize # of vehicles counter to place new vehicle in the correct array position
         inventory[numberOfVehiclesInInventory] = newVehicle;
 
         VehicleInventory.numberOfVehiclesInInventory++;
